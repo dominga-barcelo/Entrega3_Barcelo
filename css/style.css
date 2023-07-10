@@ -1,0 +1,64 @@
+/* font-family: 'Montserrat', sans-serif;
+ */
+
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style-type: none;
+}
+.footer-diseño {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2px !important;
+	font-weight: lighter;
+	text-align: center;
+	margin: 70px 0px 20px 0px;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:visited {
+	color: black;
+}
+a:link {
+	color: black;
+}
+
+.nombre {
+	font-family: 'Montserrat', sans-serif;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.carousel-container {
+	overflow: hidden;
+	white-space: nowrap;
+	margin: 20px 10px 20px 10px;
+}
+
+.carousel-container img {
+	display: inline-block;
+	vertical-align: middle;
+	max-width: 100%;
+	height: auto;
+	transition: transform 0.5s ease;
+}
+
+.trabajos {
+	margin-top: 50px !important;
+}
+
+.slider {
+	padding: 12px;
+}
+
+.col-slider {
+	padding: 0;
+}
+
+.img-slider {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}

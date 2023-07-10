@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Portafolio</title>
+
+		<!-- fuentes -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;800;900&display=swap" rel="stylesheet" />
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+		<link rel="stylesheet" href="./css/style.css" />
+	</head>
+	<body>
+		<!-- Menú -->
+		<nav class="navbar navbar-expand-lg nombre">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="index.html"><img src="./img/Logocircular.png" alt="log" width="60px" /></a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav nombre">
+						<li class="nav-item">
+							<a class="nav-link" aria-current="page" href="./trabajos/trabajos.html">Trabajos</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="./sobremi/sobremi.html">Sobre mí</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="./curriculum/curriculum.html">Curriculum</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="./contacto/contacto.html">Contacto</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<!-- Banner -->
+		<main class="container-fluid">
+			<div class="row">
+				<img class="col-lg-12 col-md-12" id="banner" src="./img/BANNER.jpg" alt="Banner principal" />
+			</div>
+		</main>
+
+		<!-- trabajos-->
+
+		<div id="carouselExampleControls" class="carousel slide container-fluid" data-bs-ride="carousel">
+			<div class="carousel-inner h-50">
+				<div class="carousel-item active">
+					<div class="row">
+						<div class="col-slider col-md-4">
+							<a ref="./trabajos/ctm.html"> <img src="./img/ctm_1.jpg" class="img-slider" alt="Ir a proyecto01" /></a>
+						</div>
+						<div class="col-slider col-md-4">
+							<a href="./trabajos/ctm.html"> <img src="./img/duo_1.jpg" class="img-slider" alt="Ir a proyecto01" /></a>
+						</div>
+						<div class="col-slider col-md-4">
+							<a href="./trabajos/ctm.html"> <img src="./img/friends_1.jpg" class="img-slider" alt="Ir a proyecto01" /></a>
+						</div>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<div class="row">
+						<div class="col-slider col-md-4">
+							<a ref="./trabajos/ctm.html"> <img src="./img/nomu 1.png" class="img-slider" alt="Ir a proyecto01" /></a>
+						</div>
+						<div class="col-slider col-md-4">
+							<a href="./trabajos/ctm.html"> <img src="./img/packaging_1.jpg" class="img-slider" alt="Ir a proyecto01" /></a>
+						</div>
+						<div class="col-slider col-md-4">
+							<a href="./trabajos/ctm.html"> <img src="./img/rock.png" class="img-slider" alt="Ir a proyecto01" /></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Previous</span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Next</span>
+			</button>
+		</div>
+
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+	</body>
+</html>
